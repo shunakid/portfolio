@@ -1,5 +1,6 @@
 import { Flex, Image } from "@chakra-ui/react";
 import React from "react";
+import AuthButtons from "../molecules/AuthButtons";
 import SearchInput from "../molecules/SearchInput";
 
 const Navbar: React.FC = () => {
@@ -9,6 +10,7 @@ const Navbar: React.FC = () => {
         <Image src="/images/logo.png" height="80px" />
       </Flex>
       <SearchInput />
+      <AuthButtons />
     </Flex>
   );
 };
