@@ -12,12 +12,15 @@ const PageContent: React.FC = () => {
           mr={{ base: 0, md: 6 }}
         >
           <CreatePostLink />
+          <div>ここに投稿などを表示</div>
         </Flex>
         <Box
           display={{ base: "none", md: "flex" }}
           flexDirection="column"
           flexGrow={1}
-        ></Box>
+        >
+          ここに投稿ガイドラインを表示
+        </Box>
       </Flex>
     </Flex>
   );
